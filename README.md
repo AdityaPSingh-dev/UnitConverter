@@ -44,10 +44,36 @@ DropdownMenu(expanded = iExpanded, onDismissRequest = { iExpanded = false }) {
     DropdownMenuItem(text = { Text("Meters") }, onClick = { /* conversion logic */ })
 }
 ```
-## Screenshots
-  ![Unit Converter Main Screen](path-to-your-screenshot/main-screen.png)
-*Main screen with unit selection and result display.*
 
-![Dropdown Menu for Units](path-to-your-screenshot/dropdown-menu.png)
-*Dropdown menu for selecting units.*
+
+## Screenshots *(Pixel 7 virtual device)*
+<div align="center">
+<!-- Main Screen -->
+<img src="images/result.png" alt="Unit Converter Main Screen" style="width:400px; height:auto;" />
+<p style="text-align:center;"><em>Main screen with unit selection and result display.</em></p>
+
+<!-- Dropdown Menu -->
+<img src="images/dropDown.png" alt="Dropdown Menu for Units" style="width:400px; height:auto;" />
+<p style="text-align:center;"><em>Dropdown menu for selecting units.</em></p>
+</div>
+
+# Getting Started
+
+## Prerequisites
+- Android Studio Flamingo or newer
+- Kotlin 1.7 or higher
+- Jetpack Compose
+
+## Steps to Run the App
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/yourusername/unit-converter.git
+   
+
+
+
+
+
+
+
 
